@@ -11,4 +11,14 @@
 
   <artifactId>money-freedom-notice</artifactId>
   <description>mf 通知插件模块，编写通知插件</description>
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>cn.hutool</groupId>
+      <artifactId>hutool-http</artifactId>
+    </dependency>
+  </dependencies>
 </project>

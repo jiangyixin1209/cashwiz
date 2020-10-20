@@ -11,5 +11,11 @@
   <artifactId>money-freedom-pojo</artifactId>
   <description>mf 用于定义项目中所有 POJO</description>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+  </dependencies>
 
 </project>

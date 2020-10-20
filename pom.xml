@@ -15,4 +15,20 @@
         <module>money-freedom-notice</module>
         <module>money-freedom-job</module>
     </modules>
+
+    <dependencyManagement>
+      <dependencies>
+        <dependency>
+          <groupId>org.projectlombok</groupId>
+          <artifactId>lombok</artifactId>
+          <version>1.18.12</version>
+        </dependency>
+
+        <dependency>
+          <groupId>cn.hutool</groupId>
+          <artifactId>hutool-http</artifactId>
+          <version>5.4.5</version>
+        </dependency>
+      </dependencies>
+    </dependencyManagement>
 </project>

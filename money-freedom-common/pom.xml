@@ -11,5 +11,11 @@
   <artifactId>money-freedom-common</artifactId>
   <description>mf 通用模块，用于编写通用配置文件和工具类</description>
 
+  <dependencies>
+    <dependency>
+      <groupId>cn.hutool</groupId>
+      <artifactId>hutool-http</artifactId>
+    </dependency>
+  </dependencies>
 
 </project>
