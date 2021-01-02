@@ -9,11 +9,10 @@
     <version>0.1-SNAPSHOT</version>
     <modules>
       <module>cashwiz-common</module>
-      <module>cashwiz-pojo</module>
       <module>cashwiz-web</module>
-      <module>cashwiz-service</module>
       <module>cashwiz-notice</module>
       <module>cashwiz-job</module>
+      <module>cashwiz-core</module>
     </modules>
 
     <dependencyManagement>

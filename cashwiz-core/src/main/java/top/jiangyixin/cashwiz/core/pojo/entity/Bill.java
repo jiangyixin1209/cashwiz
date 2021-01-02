@@ -1,4 +1,4 @@
-package top.jiangyixin.moneyfeedom.pojo.domain;
+package top.jiangyixin.cashwiz.core.pojo.entity;
 
 import lombok.Data;
 
