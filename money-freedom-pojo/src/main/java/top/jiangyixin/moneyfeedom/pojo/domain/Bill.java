@@ -1,11 +1,14 @@
 package top.jiangyixin.moneyfeedom.pojo.domain;
 
+import lombok.Data;
+
 import java.util.Date;
 import java.util.List;
 
 /**
  * @author mickle
  */
+@Data
 public class Bill {
   private Long id;
   private Double amount;

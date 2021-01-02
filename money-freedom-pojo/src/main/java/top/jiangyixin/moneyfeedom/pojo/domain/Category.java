@@ -1,10 +1,13 @@
 package top.jiangyixin.moneyfeedom.pojo.domain;
 
+import lombok.Data;
+
 import java.util.Date;
 
 /**
  * @author mickle
  */
+@Data
 public class Category {
 
   private Long id;

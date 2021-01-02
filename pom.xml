@@ -8,16 +8,17 @@
     <packaging>pom</packaging>
     <version>0.1-SNAPSHOT</version>
     <modules>
-        <module>money-freedom-common</module>
-        <module>money-freedom-pojo</module>
-        <module>money-freedom-web</module>
-        <module>money-freedom-service</module>
-        <module>money-freedom-notice</module>
-        <module>money-freedom-job</module>
+      <module>money-freedom-common</module>
+      <module>money-freedom-pojo</module>
+      <module>money-freedom-web</module>
+      <module>money-freedom-service</module>
+      <module>money-freedom-notice</module>
+      <module>money-freedom-job</module>
     </modules>
 
     <dependencyManagement>
       <dependencies>
+        <!-- lombok -->
         <dependency>
           <groupId>org.projectlombok</groupId>
           <artifactId>lombok</artifactId>
