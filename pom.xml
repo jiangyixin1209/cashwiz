@@ -4,16 +4,16 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>top.jiangyixin</groupId>
-    <artifactId>money-freedom-parent</artifactId>
+    <artifactId>cashwiz-parent</artifactId>
     <packaging>pom</packaging>
     <version>0.1-SNAPSHOT</version>
     <modules>
-      <module>money-freedom-common</module>
-      <module>money-freedom-pojo</module>
-      <module>money-freedom-web</module>
-      <module>money-freedom-service</module>
-      <module>money-freedom-notice</module>
-      <module>money-freedom-job</module>
+      <module>cashwiz-common</module>
+      <module>cashwiz-pojo</module>
+      <module>cashwiz-web</module>
+      <module>cashwiz-service</module>
+      <module>cashwiz-notice</module>
+      <module>cashwiz-job</module>
     </modules>
 
     <dependencyManagement>

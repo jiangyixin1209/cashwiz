@@ -1,3 +1,3 @@
-# Money Freedom
+# CashWiz
 
-Money Freedom开源的个人财务管理系统
+CashWiz(资产行家)开源的个人财务管理系统

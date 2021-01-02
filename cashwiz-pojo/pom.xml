@@ -3,13 +3,19 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <parent>
-      <artifactId>money-freedom-parent</artifactId>
+      <artifactId>cashwiz-parent</artifactId>
       <groupId>top.jiangyixin</groupId>
       <version>0.1-SNAPSHOT</version>
   </parent>
   <modelVersion>4.0.0</modelVersion>
-  <artifactId>money-freedom-web</artifactId>
-  <description>mf Web 层模块</description>
+  <artifactId>cashwiz-pojo</artifactId>
+  <description>mf 用于定义项目中所有 POJO</description>
 
+  <dependencies>
+    <dependency>
+      <groupId>org.projectlombok</groupId>
+      <artifactId>lombok</artifactId>
+    </dependency>
+  </dependencies>
 
 </project>
