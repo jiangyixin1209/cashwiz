@@ -15,13 +15,40 @@
       <module>cashwiz-core</module>
     </modules>
 
+  <properties>
+    <springboot.version>2.3.4.RELEASE</springboot.version>
+    <mysql.version>8.0.21</mysql.version>
+    <mybatis.plus.version>3.4.1</mybatis.plus.version>
+    <lombok.version>1.18.12</lombok.version>
+  </properties>
+
     <dependencyManagement>
       <dependencies>
+
+        <!-- springboot -->
+        <dependency>
+          <groupId>org.springframework.boot</groupId>
+          <artifactId>spring-boot-starter-web</artifactId>
+          <version>${springboot.version}</version>
+        </dependency>
+
+        <!-- DB -->
+        <dependency>
+          <groupId>mysql</groupId>
+          <artifactId>mysql-connector-java</artifactId>
+          <version>${mysql.version}</version>
+        </dependency>
+        <dependency>
+          <groupId>com.baomidou</groupId>
+          <artifactId>mybatis-plus-boot-starter</artifactId>
+          <version>${mybatis.plus.version}</version>
+        </dependency>
+
         <!-- lombok -->
         <dependency>
           <groupId>org.projectlombok</groupId>
           <artifactId>lombok</artifactId>
-          <version>1.18.12</version>
+          <version>${lombok.version}</version>
         </dependency>
 
         <dependency>

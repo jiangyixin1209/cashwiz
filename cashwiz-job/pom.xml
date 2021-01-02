@@ -9,7 +9,7 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>cashwiz-job</artifactId>
-  <description>mf 异步任务工程</description>
+  <description>cashwiz 异步任务</description>
 
 
 </project>

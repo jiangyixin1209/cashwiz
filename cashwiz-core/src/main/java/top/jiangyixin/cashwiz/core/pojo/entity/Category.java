@@ -5,7 +5,11 @@ import lombok.Data;
 import java.util.Date;
 
 /**
- * @author mickle
+ * 分类表
+ *
+ * @author jiangyixin
+ * @version 1.0
+ * @date 2021/1/2
  */
 @Data
 public class Category {

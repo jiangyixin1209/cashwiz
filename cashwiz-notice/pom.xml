@@ -10,7 +10,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>cashwiz-notice</artifactId>
-  <description>mf 通知插件模块，编写通知插件</description>
+  <description>cashwiz 通知插件</description>
   <dependencies>
     <dependency>
       <groupId>org.projectlombok</groupId>
