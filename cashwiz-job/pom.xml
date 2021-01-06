@@ -11,5 +11,11 @@
   <artifactId>cashwiz-job</artifactId>
   <description>cashwiz 异步任务</description>
 
-
+  <dependencies>
+      <dependency>
+          <groupId>top.jiangyixin</groupId>
+          <artifactId>cashwiz-core</artifactId>
+          <version>0.1-SNAPSHOT</version>
+      </dependency>
+  </dependencies>
 </project>

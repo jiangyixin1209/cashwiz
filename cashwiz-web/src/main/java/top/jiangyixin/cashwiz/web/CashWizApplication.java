@@ -1,7 +1,9 @@
-package top.jiangyixin.moneywiz.web;
+package top.jiangyixin.cashwiz.web;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
  * TODO
@@ -11,6 +13,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * @date 2021/1/2
  */
 @SpringBootApplication
+@EnableScheduling
+@ComponentScan({"top.jiangyixin.cashwiz.job"})
 public class CashWizApplication {
 
   public static void main(String[] args) {

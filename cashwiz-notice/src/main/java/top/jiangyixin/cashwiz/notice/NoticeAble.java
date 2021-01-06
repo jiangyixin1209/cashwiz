@@ -1,4 +1,4 @@
-package top.jiangyixin.moneyfeedom.notice;
+package top.jiangyixin.cashwiz.notice;
 
 /**
  * @author mickle

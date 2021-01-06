@@ -1,7 +1,7 @@
-package top.jiangyixin.moneyfeedom.notice.plugin;
+package top.jiangyixin.cashwiz.notice.plugin;
 
-import top.jiangyixin.moneyfeedom.notice.NoticeAble;
-import top.jiangyixin.moneyfeedom.notice.NoticeResult;
+import top.jiangyixin.cashwiz.notice.NoticeAble;
+import top.jiangyixin.cashwiz.notice.NoticeResult;
 
 /**
  * Server 酱通知

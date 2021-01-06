@@ -22,5 +22,10 @@
       <artifactId>cashwiz-core</artifactId>
       <version>0.1-SNAPSHOT</version>
     </dependency>
+    <dependency>
+      <groupId>top.jiangyixin</groupId>
+      <artifactId>cashwiz-job</artifactId>
+      <version>0.1-SNAPSHOT</version>
+    </dependency>
   </dependencies>
 </project>

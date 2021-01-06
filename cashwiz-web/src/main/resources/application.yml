@@ -1,2 +1,10 @@
 server:
   port: 8000
+
+spring:
+  application:
+    name: CashWiz
+  datasource:
+    url: jdbc:mysql://127.0.0.1/poseidon?useUnicode=true&characterEncoding=UTF-8
+    username: root
+    password: gllue123
