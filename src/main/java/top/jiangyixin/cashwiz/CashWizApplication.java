@@ -1,8 +1,7 @@
-package top.jiangyixin.cashwiz.web;
+package top.jiangyixin.cashwiz;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.scheduling.annotation.EnableScheduling;
 
 /**
@@ -14,7 +13,6 @@ import org.springframework.scheduling.annotation.EnableScheduling;
  */
 @SpringBootApplication
 @EnableScheduling
-@ComponentScan({"top.jiangyixin.cashwiz.job"})
 public class CashWizApplication {
 
   public static void main(String[] args) {
